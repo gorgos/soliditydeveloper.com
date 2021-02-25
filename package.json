@@ -15,7 +15,7 @@
     "gatsby-plugin-google-tagmanager": "^2.1.25",
     "gatsby-plugin-manifest": "^2.2.42",
     "gatsby-plugin-netlify-cms": "^4.1.40",
-    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-offline": "^3.10.2",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-sharp": "^2.4.5",
     "gatsby-remark-copy-linked-files": "^2.1.37",
