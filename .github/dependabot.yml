@@ -1,0 +1,115 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: netlify-cms-app
+    versions:
+    - 2.14.14
+    - 2.14.17
+    - 2.14.18
+    - 2.14.20
+    - 2.14.21
+    - 2.14.22
+    - 2.14.23
+    - 2.14.25
+    - 2.14.26
+    - 2.14.27
+    - 2.14.29
+    - 2.14.30
+    - 2.14.32
+    - 2.14.33
+    - 2.14.35
+    - 2.14.37
+    - 2.14.38
+    - 2.14.40
+    - 2.14.43
+    - 2.14.45
+  - dependency-name: gatsby-image
+    versions:
+    - 2.11.0
+    - 3.0.0
+    - 3.1.0
+    - 3.2.0
+    - 3.3.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.22.0
+    - 7.23.1
+  - dependency-name: gatsby
+    versions:
+    - 2.32.0
+    - 2.32.10
+    - 2.32.11
+    - 2.32.2
+    - 2.32.3
+    - 2.32.4
+    - 2.32.6
+    - 2.32.8
+    - 2.32.9
+  - dependency-name: gatsby-plugin-offline
+    versions:
+    - 3.10.0
+    - 3.10.1
+  - dependency-name: gatsby-remark-images
+    versions:
+    - 3.11.0
+  - dependency-name: gatsby-plugin-feed
+    versions:
+    - 2.13.0
+  - dependency-name: gatsby-source-filesystem
+    versions:
+    - 2.11.0
+  - dependency-name: gatsby-remark-responsive-iframe
+    versions:
+    - 2.10.0
+    - 2.11.0
+  - dependency-name: gatsby-transformer-sharp
+    versions:
+    - 2.11.0
+    - 2.12.0
+  - dependency-name: gatsby-plugin-netlify-cms
+    versions:
+    - 4.10.0
+    - 4.9.0
+  - dependency-name: gatsby-remark-copy-linked-files
+    versions:
+    - 2.10.0
+    - 2.9.0
+  - dependency-name: gatsby-remark-prismjs
+    versions:
+    - 3.12.0
+    - 3.13.0
+  - dependency-name: gatsby-plugin-react-helmet
+    versions:
+    - 3.10.0
+    - 3.9.0
+  - dependency-name: gatsby-transformer-remark
+    versions:
+    - 2.15.0
+    - 2.16.0
+  - dependency-name: gatsby-plugin-google-analytics
+    versions:
+    - 2.10.0
+    - 2.11.0
+  - dependency-name: gatsby-plugin-sharp
+    versions:
+    - 2.13.3
+    - 2.13.4
+    - 2.14.0
+  - dependency-name: socket.io
+    versions:
+    - 2.4.1
+  - dependency-name: js-yaml
+    versions:
+    - 3.14.1
+  - dependency-name: prettier
+    versions:
+    - 2.2.1
