@@ -7,7 +7,7 @@
     "url": "https://github.com/ryanfitzgerald/devblog/issues"
   },
   "dependencies": {
-    "gatsby": "^2.19.28",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^1.0.55",
     "gatsby-paginate": "^1.1.1",
     "gatsby-plugin-feed": "^2.3.27",
